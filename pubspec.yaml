@@ -13,7 +13,7 @@ dependencies:
   permission_handler: ^11.3.1
   connectivity_plus: ^6.1.0
   network_info_plus: ^6.1.0
-  flutter_blue_plus: ^1.35.5
+  flutter_blue_plus: ^2.2.2
   wifi_scan: ^0.4.1
   shared_preferences: ^2.3.3
   path_provider: ^2.1.5
