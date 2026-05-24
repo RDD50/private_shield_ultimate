@@ -1,0 +1,27 @@
+name: private_shield_ultimate
+description: APK Android de diagnostic securite, vie privee et durcissement du telephone.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  permission_handler: ^11.3.1
+  connectivity_plus: ^6.1.0
+  network_info_plus: ^6.1.0
+  flutter_blue_plus: ^1.35.5
+  wifi_scan: ^0.4.1
+  shared_preferences: ^2.3.3
+  path_provider: ^2.1.5
+  share_plus: ^10.1.2
+  device_info_plus: ^11.1.1
+  package_info_plus: ^8.1.1
+  android_intent_plus: ^5.2.0
+  intl: ^0.19.0
+
+flutter:
+  uses-material-design: true
