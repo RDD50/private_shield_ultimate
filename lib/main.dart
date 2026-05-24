@@ -35,7 +35,7 @@ class PrivateShieldApp extends StatelessWidget {
           brightness: Brightness.dark,
         ),
         scaffoldBackgroundColor: const Color(0xFF07111F),
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           color: const Color(0xFF101C2D),
           elevation: 0,
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
@@ -992,7 +992,7 @@ class RiskCard extends StatelessWidget {
               children: [
                 Container(
                   padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-                  decoration: BoxDecoration(color: risk.severity.color.withOpacity(0.15), borderRadius: BorderRadius.circular(999)),
+                  decoration: BoxDecoration(color: risk.severity.color.withValues(alpha: 0.15), borderRadius: BorderRadius.circular(999)),
                   child: Text(risk.severity.label, style: TextStyle(color: risk.severity.color, fontWeight: FontWeight.bold)),
                 ),
                 const SizedBox(width: 8),
