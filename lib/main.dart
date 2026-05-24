@@ -35,7 +35,7 @@ class PrivateShieldApp extends StatelessWidget {
           brightness: Brightness.dark,
         ),
         scaffoldBackgroundColor: const Color(0xFF07111F),
-        cardTheme: CardThemeData(
+        cardTheme: CardTheme(
           color: const Color(0xFF101C2D),
           elevation: 0,
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
