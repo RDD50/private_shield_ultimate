@@ -24,9 +24,11 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: "3.24.5"
           channel: stable
           cache: true
+
+      - name: Show Flutter version
+        run: flutter --version
 
       - name: Generate Android platform files
         run: flutter create --platforms=android --project-name private_shield_ultimate --org com.privateshield .
@@ -51,4 +53,3 @@ jobs:
         with:
           name: PrivateShield-Ultimate-debug-apk
           path: build/app/outputs/flutter-apk/app-debug.apk
-
